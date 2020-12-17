@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+	<title>STUDENT REGISTRATION FORM</title>
+</head>
+<body bgcolor="skyblue">
+	<form>
+        <div class="fn">
+        <label for="fname">FIRST NAME</label>&nbsp;
+        <input type="text" id="fname" name="fname" value=" ">(max 30 characters a-z and A-Z)<br><br></div>
+        <div class="ln">
+        <label for="lname">LAST NAME</label>&nbsp;
+        <input type="text" id="lname" name="lname" value=" ">(max 30 characters a-z and A-Z)<br><br>
+        </div>
+        <div class="dob">
+        <label for="birthday">DATE OF BIRTH</label>&nbsp;
+        <input type="date" id="birthday" name="birthday"><br><br>
+        </div>
+        <div class="em">
+            <label for="email">EMAIL ID</label>&nbsp;
+            <input type="text" id="email" name="email" value=" "><br><br>
+        </div>
+        <div class="phn">
+        <label for="phone">MOBILE NUMBER</label>
+        <input type="text" name="country code"  value="+91" size="2"> 
+        <input type="text" name="phone" size="10"/>(10 digit number)<br><br>
+        </div>
+        <div class="gen">
+        <label>GENDER</label>&nbsp;
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        </div>
+        <div class="add">
+        <label for="address">ADDRESS</label>&nbsp;
+        <textarea id="address" name="address" rows="4" cols="50">
+        </textarea><br><br>
+        </div>
+        <div class="city">
+        <label for="city">CITY</label>&nbsp;
+        <input type="text" id="city" name="city" value=" ">(max 30 characters a-z and A-Z)<br><br>
+        </div>
+        <div class="pin">
+        <label for="pin">PIN CODE</label>&nbsp;
+        <input type="number" id="pin" name="pin">(6 digit number)<br><br>
+        </div>
+        <div class="state">
+        <label for="state">STATE</label>&nbsp;
+        <input type="text" id="state" name="state" value=" ">(max 30 characters a-z and A-Z)<br><br>
+        </div> 
+        <div class="coun">
+        <label for="country">COUNTRY</label>&nbsp;
+        <input type="text" id="country" name="country" value=" "><br><br>
+        </div>
+        <div>
+        <label>HOBBIES</label>&nbsp;
+        	<input type="radio" id="hobbies" name="Drawing" value="Drawing">
+        	<label for="Drawing">Drawing</label>
+        	<input type="radio" id="hobbies" name="Singing" value="Singing">
+        	<label for="Singing">Sining</label>
+        	<input type="radio" id="hobbies" name="Dancing" value="Dancing">
+        	<label for="Dancing">Dancing</label>
+        	<input type="radio" id="hobbies" name="Sketching" value="Sketching">
+        	<label for="Sketching">Sketching</label>
+        	<input type="radio" id="hobbies" name="others" value="others">
+        	<label for="others">Others </label><textarea></textarea><br><br>
+        </div>
+        <div class="qualification">    
+        	<table style="width:60%">
+                <label>QUALIFICATION</label>
+        		<tr>
+        			<th>SI.No.</th>
+        			<th>Examination</th>
+        			<th>Board</th>
+        			<th>Percentage</th>
+        			<th>Year of Passing</th>
+        		</tr>
+        		<tr>
+        			<td>1</td>
+        			<td>Class X</td>
+        			<td><textarea></textarea></td>
+        			<td><textarea></textarea></td>
+        			<td><textarea></textarea></td>
+        		</tr>
+        		<tr>
+        			<td>2</td>
+        			<td>Class XII</td>
+        			<td><textarea></textarea></td>
+        			<td><textarea></textarea></td>
+        			<td><textarea></textarea></td>
+        		</tr>
+        		<tr>
+        			<td>3</td>
+        			<td>Graduation</td>
+        			<td><textarea></textarea></td>
+        			<td><textarea></textarea></td>
+        			<td><textarea></textarea></td>
+        		</tr>
+        		<tr>
+        			<td>4</td>
+        			<td>Masters</td>
+        			<td><textarea></textarea></td>
+        			<td><textarea></textarea></td>
+        			<td><textarea></textarea></td>
+        		</tr>
+        		<tr>
+        			<td></td>
+        			<td></td>
+        			<td>(10 characters)</td>
+        			<td>(upto 2 decimal)</td>
+        			<td></td>
+        		</tr>
+            </table>
+        </div>
+
+        <div class="courses">
+        <p>COURSES APPLIED FOR  
+        <input type="radio" id="BCA" name="BCA" value="BCA">
+        <label for="BCA">BCA</label>
+        <input type="radio" id="B.Com" name="B.Com" value="B.Com">
+        <label for="B.Com">B.Com</label>
+        <input type="radio" id="B.Sc" name="B.Sc" value="B.Sc">
+        <label for="B.Sc">B.Sc</label>
+        <input type="radio" id="B.A" name="B.A" value="B.A">
+        <label for="B.A">B.A</label>
+        </p> 
+        </div>
+        <div class="submit">
+        <input type="submit" value="Submit">
+        <input type="Reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function ok(){
+                var animal= document.getElementById("name").value;
+                
+                if(animal=='')
+                {
+                    alert("please enter your favourite animal");
+                }
+                
+                else
+                {
+                    alert('Thank you');
+                } 
+            }
+
+    
+
+        </script>
+        <style>
+        body{
+  font-style:sans serif;
+}
+
+    </style>
+    </head>
+    <body bgcolor="grey">
+        <h1>Favourite Animal</h1>
+        <p>What is your Favourite Animal? <input type="text" id="name"></p>
+        <input type="submit" value="Go" onclick="ok()">
+    </body>
+</html>
